@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,100&family=Newsreader:opsz,wght@6..72,200&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,100&family=Dela+Gothic+One&family=Newsreader:opsz,wght@6..72,200&family=Sacramento&family=Shadows+Into+Light&display=swap" rel="stylesheet">
-<a href="iamgen7"></a>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,100&family=Newsreader:opsz,wght@6..72,200&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,100&family=Dela+Gothic+One&family=Newsreader:opsz,wght@6..72,200&family=Sacramento&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+    <a href="iamgen7"></a>
     <title>Mi pagina web</title>
 </head>
-<body> 
+
+<body>
     <header>
         <h1>UN TIRO MAS. PESCA Y CAMPING</h1>
         <nav>
@@ -31,22 +37,22 @@
             <form action="https://formspree.io/f/xwkdrgbv" method="post">
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required><br><br>
-        
+
                 <label for="email">Correo electrónico:</label>
                 <input type="email" id="email" name="email" required><br><br>
-        
+
                 <label for="pregunta">Tu Pregunta:</label>
                 <textarea id="pregunta" name="pregunta" rows="4" required></textarea><br><br>
-        
+
                 <input type="submit" value="Enviar Pregunta">
             </form>
         </section>
     </header>
 
-    
+
     <a href="#productos">productos</a> <br> <!--aca hay que hacer un menu con todos los productos de lo que vendemos, acomodo por
    precio o color como lo busque el usuario -->
-   <div class="contenedor_imagen">
+    <div class="contenedor_imagen">
         <img src="imagen/imagen_2.jpg" alt="imagen_2">
         <img src="imagen/imagen_1.jpg" alt="imagen_1">
         <img src="imagen/imagen_3.jpg" alt="imagen_3">
@@ -54,38 +60,43 @@
         <img src="imagen/imagen_5.jpg" alt="imagen_5">
         <img src="imagen/imagen_6.jpg" alt="imagen_6">
         <img src="imagen/imagen7.jpg" alt="imagen_7">
-   </div>
-        
-        <aside>
-            <h2>UN POCO DE HISTORIA NUESTRA</h2>
-            <p>Nuestros primeros pasos son los mas importantes, nosotros empesamos con muy poco</p>
-        </aside>
+    </div>
 
-        <section>
-            <h2>NUESTRA UBICACION</h2> <!--aca ponemos un mapa con la ubicacion de la ciudad y el local-->
-           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3410.6947252896575!2d-61.51706822456793!3d-31.256873188557925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cab1d86f860a39%3A0x939d82b2982cef68!2sEros%20Juan%20A.%20Faraudello%20790%2C%20Rafaela%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1699991034585!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
-<div class="menu">
-    <h4>crea un usuario</h4> <br>  <!--esto para que el usuario cree un usuario para asi nosotros guardamos los datos en una BD-->
-    <h3>ingresar</h3> 
-    <form action="/procesar_registro" method="post">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required><br><br>
-    
-        <label for="apellido">Apellido:</label>
-        <input type="text" id="apellido" name="apellido" required><br><br>
-        <label for="email">Correo electrónico:</label>
-        <input type="email" id="email" name="email" required><br><br>
-    
-        <label for="contrasena">Contraseña:</label>
-        <input type="password" id="contrasena" name="contrasena" required><br><br>
-    
-        <input type="submit" value="Registrarse">
-    </form> <br>
-</div>
-  <script src="scrip.js"></script>
+    <aside>
+        <h2>UN POCO DE HISTORIA NUESTRA</h2>
+        <p>Nuestros primeros pasos son los mas importantes, nosotros empesamos con muy poco</p>
+    </aside>
+
+    <section>
+        <h2>NUESTRA UBICACION</h2> <!--aca ponemos un mapa con la ubicacion de la ciudad y el local-->
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3410.6947252896575!2d-61.51706822456793!3d-31.256873188557925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cab1d86f860a39%3A0x939d82b2982cef68!2sEros%20Juan%20A.%20Faraudello%20790%2C%20Rafaela%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1699991034585!5m2!1ses-419!2sar"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <div class="menu">
+        <h4>crea un usuario</h4> <br>
+        <!--esto para que el usuario cree un usuario para asi nosotros guardamos los datos en una BD-->
+        <h3>ingresar</h3>
+        <form action="/procesar_registro" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required><br><br>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" required><br><br>
+
+            <input type="submit" value="Registrarse">
+        </form> <br>
+    </div>
+    <script src="scrip.js"></script>
 </body>
 <footer>
-  <center> <a href="https://www.instagram.com/">instagram</a></center>
+    <center> <a href="https://www.instagram.com/">instagram</a></center>
 </footer>
+
 </html>
