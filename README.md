@@ -12,3 +12,4 @@ El proyecto consiste en la creación de una tienda virtual que permita a los usu
 - CSS <br>
 - JavaScript <br>
 <summary>
+<br>
